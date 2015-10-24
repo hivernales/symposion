@@ -1,0 +1,1030 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Didier Raboud <odyx@swisslinux.org>, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: symposion\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-24 14:41+0200\n"
+"PO-Revision-Date: 2015-10-24 16:47+0100\n"
+"Last-Translator: Didier Raboud <odyx@swisslinux.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: boxes/models.py:15 reviews/models.py:313 schedule/models.py:73
+msgid "Label"
+msgstr "Étiquette"
+
+#: boxes/models.py:18
+msgid "Created by"
+msgstr "Crée par"
+
+#: boxes/models.py:19
+msgid "Last updated by"
+msgstr "Mis à jour par"
+
+#: boxes/models.py:25
+msgid "Box"
+msgstr "Boîte"
+
+#: boxes/models.py:26
+msgid "Boxes"
+msgstr "Boîtes"
+
+#: cms/models.py:25
+msgid "Draft"
+msgstr "Brouillon"
+
+#: cms/models.py:26 reviews/models.py:303
+msgid "Public"
+msgstr "Public"
+
+#: cms/models.py:44
+msgid "page"
+msgstr "page"
+
+#: cms/models.py:45
+msgid "pages"
+msgstr "pages"
+
+#: cms/models.py:63
+msgid "Path can only contain letters, numbers and hyphens and end with /"
+msgstr ""
+
+#: conference/apps.py:9
+msgid "Symposion Conference"
+msgstr ""
+
+#: conference/models.py:18 proposals/models.py:90 schedule/models.py:181
+msgid "Title"
+msgstr ""
+
+#: conference/models.py:21 conference/models.py:62
+msgid "Start date"
+msgstr ""
+
+#: conference/models.py:22 conference/models.py:63
+msgid "End date"
+msgstr ""
+
+#: conference/models.py:25
+msgid "timezone"
+msgstr ""
+
+#: conference/models.py:44
+msgid "conference"
+msgstr ""
+
+#: conference/models.py:45
+msgid "conferences"
+msgstr ""
+
+#: conference/models.py:56 sponsorship/models.py:51
+msgid "Conference"
+msgstr ""
+
+#: conference/models.py:58 proposals/models.py:76 schedule/models.py:54
+#: speakers/models.py:24 sponsorship/models.py:52 sponsorship/models.py:234
+#: teams/models.py:25
+msgid "Name"
+msgstr ""
+
+#: conference/models.py:59 proposals/models.py:77 teams/models.py:24
+msgid "Slug"
+msgstr ""
+
+#: conference/models.py:69
+msgid "section"
+msgstr ""
+
+#: conference/models.py:70
+msgid "sections"
+msgstr ""
+
+#: forms.py:14
+msgid "First name"
+msgstr "Prénom"
+
+#: forms.py:15
+msgid "Last name"
+msgstr "Nom"
+
+#: forms.py:16
+msgid "Confirm Email"
+msgstr ""
+
+#: forms.py:36
+msgid "Email address must match previously typed email address"
+msgstr ""
+
+#: proposals/actions.py:37
+msgid "Export selected objects as CSV file"
+msgstr ""
+
+#: proposals/apps.py:9
+msgid "Symposion Proposals"
+msgstr ""
+
+#: proposals/forms.py:16
+msgid "Email address of new speaker (use their email address, not yours)"
+msgstr ""
+
+#: proposals/forms.py:31
+msgid "This email address has already been invited to your talk proposal"
+msgstr ""
+
+#: proposals/models.py:37 proposals/models.py:74 schedule/models.py:21
+#: schedule/models.py:189
+msgid "Section"
+msgstr ""
+
+#: proposals/models.py:39 schedule/models.py:88
+msgid "Start"
+msgstr ""
+
+#: proposals/models.py:40 schedule/models.py:89
+msgid "End"
+msgstr ""
+
+#: proposals/models.py:41
+msgid "Closed"
+msgstr ""
+
+#: proposals/models.py:42 schedule/models.py:22
+msgid "Published"
+msgstr ""
+
+#: proposals/models.py:88 schedule/models.py:87
+msgid "Kind"
+msgstr ""
+
+#: proposals/models.py:92
+msgid "Brief Description"
+msgstr ""
+
+#: proposals/models.py:94
+msgid ""
+"If your proposal is accepted this will be made public and printed in the "
+"program. Should be one paragraph, maximum 400 characters."
+msgstr ""
+
+#: proposals/models.py:98
+msgid "Detailed Abstract"
+msgstr ""
+
+#: proposals/models.py:99
+msgid ""
+"Detailed outline. Will be made public if your proposal is accepted. Edit "
+"using <a href='http://daringfireball.net/projects/markdown/basics' "
+"target='_blank'>Markdown</a>."
+msgstr ""
+
+#: proposals/models.py:104
+msgid "Addtional Notes"
+msgstr ""
+
+#: proposals/models.py:106
+msgid ""
+"Anything else you'd like the program committee to know when making their "
+"selection: your past experience, etc. This is not made public. Edit using <a "
+"href='http://daringfireball.net/projects/markdown/basics' "
+"target='_blank'>Markdown</a>."
+msgstr ""
+
+#: proposals/models.py:114
+msgid "Submitted"
+msgstr ""
+
+#: proposals/models.py:116 proposals/models.py:185 schedule/models.py:184
+#: speakers/models.py:43
+msgid "Speaker"
+msgstr "Conférencier"
+
+#: proposals/models.py:120
+#, python-format
+msgid "%s is same as primary speaker."
+msgstr ""
+
+#: proposals/models.py:122
+#, python-format
+msgid "%s has already been in speakers."
+msgstr ""
+
+#: proposals/models.py:125
+msgid "Addtional speakers"
+msgstr ""
+
+#: proposals/models.py:127 schedule/models.py:187
+msgid "Cancelled"
+msgstr ""
+
+#: proposals/models.py:149
+msgid "Undecided"
+msgstr ""
+
+#: proposals/models.py:180
+msgid "Pending"
+msgstr ""
+
+#: proposals/models.py:181 reviews/models.py:230
+msgid "Accepted"
+msgstr ""
+
+#: proposals/models.py:182
+msgid "Declined"
+msgstr ""
+
+#: proposals/models.py:186
+msgid "Proposalbase"
+msgstr ""
+
+#: proposals/models.py:187 reviews/models.py:236 schedule/models.py:269
+msgid "Status"
+msgstr ""
+
+#: proposals/models.py:191
+msgid "Addtional speaker"
+msgstr ""
+
+#: proposals/models.py:192 schedule/models.py:186
+msgid "Additional speakers"
+msgstr ""
+
+#: proposals/models.py:196
+#, python-format
+msgid "pending speaker (%s)"
+msgstr ""
+
+#: proposals/models.py:198
+#, python-format
+msgid "declined speaker (%s)"
+msgstr ""
+
+#: proposals/models.py:211 reviews/models.py:57 reviews/models.py:97
+#: reviews/models.py:112 reviews/models.py:195 reviews/models.py:218
+#: reviews/models.py:298 reviews/models.py:325
+msgid "Proposal"
+msgstr ""
+
+#: proposals/models.py:213
+msgid "Uploaded by"
+msgstr ""
+
+#: proposals/models.py:215
+msgid "Created at"
+msgstr "Créé à"
+
+#: proposals/models.py:217 sponsorship/models.py:217 sponsorship/models.py:278
+msgid "File"
+msgstr ""
+
+#: proposals/models.py:218 schedule/models.py:182 sponsorship/models.py:55
+#: sponsorship/models.py:235 teams/models.py:26
+msgid "Description"
+msgstr ""
+
+#: proposals/views.py:42
+#, python-brace-format
+msgid ""
+"To submit a proposal, please <a href='{0}'>log in</a> and create a speaker "
+"profile via the dashboard."
+msgstr ""
+
+#: proposals/views.py:51
+#, python-brace-format
+msgid "To submit a proposal, first <a href='{0}'>create a speaker profile</a>."
+msgstr ""
+
+#: proposals/views.py:91
+msgid "Proposal submitted."
+msgstr ""
+
+#: reviews/apps.py:9
+msgid "Symposion Reviews"
+msgstr ""
+
+#: reviews/forms.py:40
+msgid "Talk ids"
+msgstr ""
+
+#: reviews/forms.py:42
+msgid "Provide a comma seperated list of talk ids to accept."
+msgstr ""
+
+#: reviews/models.py:36
+msgid "+1 — Good proposal and I will argue for it to be accepted."
+msgstr ""
+
+#: reviews/models.py:37
+msgid "+0 — OK proposal, but I will not argue for it to be accepted."
+msgstr ""
+
+#: reviews/models.py:38
+msgid "−0 — Weak proposal, but I will not argue strongly against acceptance."
+msgstr ""
+
+#: reviews/models.py:39
+msgid "−1 — Serious issues and I will argue to reject this proposal."
+msgstr ""
+
+#: reviews/models.py:52
+msgid "auto-assigned, initial"
+msgstr ""
+
+#: reviews/models.py:53
+msgid "opted-in"
+msgstr ""
+
+#: reviews/models.py:54
+msgid "auto-assigned, later"
+msgstr ""
+
+#: reviews/models.py:58 reviews/models.py:98 reviews/models.py:113
+#: reviews/models.py:196 schedule/models.py:267 speakers/models.py:23
+#: teams/models.py:85
+msgid "User"
+msgstr ""
+
+#: reviews/models.py:60
+msgid "Origin"
+msgstr ""
+
+#: reviews/models.py:62
+msgid "Assigned at"
+msgstr ""
+
+#: reviews/models.py:63
+msgid "Opted out"
+msgstr ""
+
+#: reviews/models.py:100 teams/models.py:90
+msgid "Message"
+msgstr ""
+
+#: reviews/models.py:101 reviews/models.py:119 reviews/models.py:201
+msgid "Submitted at"
+msgstr ""
+
+#: reviews/models.py:105
+msgid "proposal message"
+msgstr ""
+
+#: reviews/models.py:106
+msgid "proposal messages"
+msgstr ""
+
+#: reviews/models.py:117 reviews/models.py:200
+msgid "Vote"
+msgstr ""
+
+#: reviews/models.py:118
+msgid "Comment"
+msgstr ""
+
+#: reviews/models.py:188
+msgid "review"
+msgstr ""
+
+#: reviews/models.py:189
+msgid "reviews"
+msgstr ""
+
+#: reviews/models.py:205
+msgid "latest vote"
+msgstr ""
+
+#: reviews/models.py:206
+msgid "latest votes"
+msgstr ""
+
+#: reviews/models.py:219
+msgid "Score"
+msgstr ""
+
+#: reviews/models.py:220
+msgid "Comment count"
+msgstr ""
+
+#: reviews/models.py:221
+msgid "Vote count"
+msgstr ""
+
+#: reviews/models.py:222
+msgid "Plus one"
+msgstr ""
+
+#: reviews/models.py:223
+msgid "Plus zero"
+msgstr ""
+
+#: reviews/models.py:224
+msgid "Minus zero"
+msgstr ""
+
+#: reviews/models.py:225
+msgid "Minus one"
+msgstr ""
+
+#: reviews/models.py:232
+msgid "accepted"
+msgstr ""
+
+#: reviews/models.py:233 sponsorship/admin.py:76 teams/models.py:76
+msgid "rejected"
+msgstr ""
+
+#: reviews/models.py:234
+msgid "undecided"
+msgstr ""
+
+#: reviews/models.py:235
+msgid "standby"
+msgstr ""
+
+#: reviews/models.py:293
+msgid "proposal_result"
+msgstr ""
+
+#: reviews/models.py:294
+msgid "proposal_results"
+msgstr ""
+
+#: reviews/models.py:299
+msgid "Commenter"
+msgstr ""
+
+#: reviews/models.py:300 sponsorship/models.py:216 sponsorship/models.py:277
+msgid "Text"
+msgstr ""
+
+#: reviews/models.py:303
+msgid "public"
+msgstr ""
+
+#: reviews/models.py:303
+msgid "private"
+msgstr ""
+
+#: reviews/models.py:304
+msgid "Commented at"
+msgstr ""
+
+#: reviews/models.py:307
+msgid "comment"
+msgstr ""
+
+#: reviews/models.py:308
+msgid "comments"
+msgstr ""
+
+#: reviews/models.py:314 reviews/models.py:330
+msgid "From address"
+msgstr ""
+
+#: reviews/models.py:315 reviews/models.py:331
+msgid "Subject"
+msgstr ""
+
+#: reviews/models.py:316 reviews/models.py:332
+msgid "Body"
+msgstr ""
+
+#: reviews/models.py:319
+msgid "notification template"
+msgstr ""
+
+#: reviews/models.py:320
+msgid "notification templates"
+msgstr ""
+
+#: reviews/models.py:327
+msgid "Template"
+msgstr ""
+
+#: reviews/models.py:328
+msgid "Timestamp"
+msgstr ""
+
+#: reviews/models.py:329
+msgid "To address"
+msgstr ""
+
+#: schedule/models.py:23
+msgid "Hide schedule from overall conference view"
+msgstr ""
+
+#: schedule/models.py:30 schedule/models.py:37 schedule/models.py:53
+msgid "Schedule"
+msgstr ""
+
+#: schedule/models.py:31
+msgid "Schedules"
+msgstr ""
+
+#: schedule/models.py:38
+msgid "Date"
+msgstr ""
+
+#: schedule/models.py:46
+msgid "date"
+msgstr ""
+
+#: schedule/models.py:47
+msgid "dates"
+msgstr ""
+
+#: schedule/models.py:55 sponsorship/models.py:53
+msgid "Order"
+msgstr ""
+
+#: schedule/models.py:61 schedule/models.py:165
+msgid "Room"
+msgstr ""
+
+#: schedule/models.py:62
+msgid "Rooms"
+msgstr ""
+
+#: schedule/models.py:72
+msgid "schedule"
+msgstr ""
+
+#: schedule/models.py:79
+msgid "Slot kind"
+msgstr ""
+
+#: schedule/models.py:80
+msgid "Slot kinds"
+msgstr ""
+
+#: schedule/models.py:86 schedule/models.py:219
+msgid "Day"
+msgstr ""
+
+#: schedule/models.py:90
+msgid "Content override"
+msgstr ""
+
+#: schedule/models.py:154
+msgid "slot"
+msgstr ""
+
+#: schedule/models.py:155
+msgid "slots"
+msgstr ""
+
+#: schedule/models.py:164 schedule/models.py:180
+msgid "Slot"
+msgstr ""
+
+#: schedule/models.py:173
+msgid "Slot room"
+msgstr ""
+
+#: schedule/models.py:174
+msgid "Slot rooms"
+msgstr ""
+
+#: schedule/models.py:183
+msgid "Abstract"
+msgstr ""
+
+#: schedule/models.py:188
+msgid "Proposal base"
+msgstr ""
+
+#: schedule/models.py:212
+msgid "presentation"
+msgstr ""
+
+#: schedule/models.py:213
+msgid "presentations"
+msgstr ""
+
+#: schedule/models.py:220
+msgid "Slots"
+msgstr ""
+
+#: schedule/models.py:251 schedule/models.py:266
+msgid "Session"
+msgstr ""
+
+#: schedule/models.py:252
+msgid "Sessions"
+msgstr ""
+
+#: schedule/models.py:262
+msgid "Session Chair"
+msgstr ""
+
+#: schedule/models.py:263
+msgid "Session Runner"
+msgstr ""
+
+#: schedule/models.py:268
+msgid "Role"
+msgstr ""
+
+#: schedule/models.py:275
+msgid "Session role"
+msgstr ""
+
+#: schedule/models.py:276
+msgid "Session roles"
+msgstr ""
+
+#: speakers/apps.py:9
+msgid "Symposion Speakers"
+msgstr ""
+
+#: speakers/models.py:25
+msgid "As you would like it to appear in the conference program."
+msgstr "Votre nom tel que présenté dans le programme de conférence"
+
+#: speakers/models.py:27
+msgid ""
+"A little bit about you.  Edit using <a href='http://warpedvisions.org/"
+"projects/markdown-cheat-sheet/target='_blank'>Markdown</a>."
+msgstr ""
+"Quelques mots à votre sujet. Édition avec <a href='http://warpedvisions.org/"
+"projects/markdown-cheat-sheet/target='_blank'>Markdown</a>."
+
+#: speakers/models.py:30
+msgid "Biography"
+msgstr "Biographie"
+
+#: speakers/models.py:31
+msgid "Photo"
+msgstr ""
+
+#: speakers/models.py:32 sponsorship/models.py:78
+msgid "Annotation"
+msgstr ""
+
+#: speakers/models.py:33
+msgid "Invite_email"
+msgstr ""
+
+#: speakers/models.py:34
+msgid "Invite token"
+msgstr ""
+
+#: speakers/models.py:38 teams/models.py:41
+msgid "Created"
+msgstr "Créé"
+
+#: speakers/models.py:44
+msgid "Speakers"
+msgstr ""
+
+#: speakers/views.py:38 speakers/views.py:66
+msgid "Speaker profile created."
+msgstr "Profil de conférencier créé"
+
+#: speakers/views.py:93
+msgid "You have been associated with all pending talk proposals"
+msgstr ""
+
+#: sponsorship/admin.py:68 sponsorship/models.py:72
+msgid "Applicant"
+msgstr ""
+
+#: sponsorship/admin.py:74
+msgid "unreviewed"
+msgstr ""
+
+#: sponsorship/admin.py:75
+msgid "approved"
+msgstr ""
+
+#: sponsorship/admin.py:124
+msgid "None"
+msgstr ""
+
+#: sponsorship/apps.py:9
+msgid "Symposion Sponsorship"
+msgstr ""
+
+#: sponsorship/forms.py:69
+#, python-format
+msgid "maximum %s words"
+msgstr ""
+
+#: sponsorship/models.py:31 sponsorship/models.py:219
+msgid "Web Logo"
+msgstr ""
+
+#: sponsorship/models.py:35
+msgid "Print Logo"
+msgstr ""
+
+#: sponsorship/models.py:39
+msgid "Web Desc"
+msgstr ""
+
+#: sponsorship/models.py:43
+msgid "Print Desc"
+msgstr ""
+
+#: sponsorship/models.py:54
+msgid "Cost"
+msgstr ""
+
+#: sponsorship/models.py:55
+msgid "This is private."
+msgstr ""
+
+#: sponsorship/models.py:59
+msgid "Sponsor level"
+msgstr ""
+
+#: sponsorship/models.py:60
+msgid "Sponsor levels"
+msgstr ""
+
+#: sponsorship/models.py:75
+msgid "Sponsor Name"
+msgstr ""
+
+#: sponsorship/models.py:76
+msgid "display URL"
+msgstr ""
+
+#: sponsorship/models.py:77
+msgid "External URL"
+msgstr ""
+
+#: sponsorship/models.py:79
+msgid "Contact Name"
+msgstr ""
+
+#: sponsorship/models.py:80
+msgid "Contact Email"
+msgstr ""
+
+#: sponsorship/models.py:81
+msgid "level"
+msgstr ""
+
+#: sponsorship/models.py:82
+msgid "added"
+msgstr ""
+
+#: sponsorship/models.py:83
+msgid "active"
+msgstr ""
+
+#: sponsorship/models.py:87
+msgid "Sponsor logo"
+msgstr ""
+
+#: sponsorship/models.py:91
+msgid "Web logo benefit"
+msgstr ""
+
+#: sponsorship/models.py:91
+msgid "Web logo benefit is complete"
+msgstr ""
+
+#: sponsorship/models.py:92
+msgid "Print logo benefit"
+msgstr ""
+
+#: sponsorship/models.py:92
+msgid "Print logo benefit is complete"
+msgstr ""
+
+#: sponsorship/models.py:93
+msgid "Print description benefit"
+msgstr ""
+
+#: sponsorship/models.py:93
+msgid "Print description benefit is complete"
+msgstr ""
+
+#: sponsorship/models.py:94
+msgid "Company description benefit"
+msgstr ""
+
+#: sponsorship/models.py:94
+msgid "Company description benefit is complete"
+msgstr ""
+
+#: sponsorship/models.py:102 sponsorship/models.py:267
+msgid "Sponsor"
+msgstr ""
+
+#: sponsorship/models.py:103
+msgid "Sponsors"
+msgstr ""
+
+#: sponsorship/models.py:218
+msgid "Rich Text"
+msgstr ""
+
+#: sponsorship/models.py:220
+msgid "Simple"
+msgstr ""
+
+#: sponsorship/models.py:221
+msgid "Option"
+msgstr ""
+
+#: sponsorship/models.py:236
+msgid "Type"
+msgstr ""
+
+#: sponsorship/models.py:238
+msgid "content type"
+msgstr ""
+
+#: sponsorship/models.py:248 sponsorship/models.py:268
+msgid "Benefit"
+msgstr ""
+
+#: sponsorship/models.py:249
+msgid "Level"
+msgstr ""
+
+#: sponsorship/models.py:252 sponsorship/models.py:272
+msgid "Max words"
+msgstr ""
+
+#: sponsorship/models.py:253 sponsorship/models.py:273
+msgid "Other limits"
+msgstr ""
+
+#: sponsorship/models.py:257
+msgid "Benefit level"
+msgstr ""
+
+#: sponsorship/models.py:258
+msgid "Benefit levels"
+msgstr ""
+
+#: sponsorship/models.py:269
+msgid "Active"
+msgstr ""
+
+#: sponsorship/models.py:282
+msgid "Complete?"
+msgstr ""
+
+#: sponsorship/models.py:282
+msgid "True - benefit complete; False - benefit incomplete; Null - n/a"
+msgstr ""
+
+#: sponsorship/models.py:286
+msgid "Sponsor benefit"
+msgstr ""
+
+#: sponsorship/models.py:287
+msgid "Sponsor benefits"
+msgstr ""
+
+#: sponsorship/models.py:303
+#, python-format
+msgid "Sponsorship level only allows for %(word)s words, you provided %(num)d."
+msgstr ""
+
+#: sponsorship/views.py:35
+msgid ""
+"Thank you for your sponsorship application. Please update your benefit "
+"details below."
+msgstr ""
+
+#: sponsorship/views.py:40
+msgid "Thank you for your sponsorship application."
+msgstr ""
+
+#: sponsorship/views.py:92
+msgid "Sponsorship details have been updated"
+msgstr ""
+
+#: teams/forms.py:15
+msgid "Email"
+msgstr ""
+
+#: teams/forms.py:16
+msgid "email address must be that of an account on this conference site"
+msgstr ""
+
+#: teams/forms.py:28
+msgid "valid email address required"
+msgstr ""
+
+#: teams/forms.py:36
+#, python-format
+msgid "no account with email address <b>%s</b> found on this conference site"
+msgstr ""
+
+#: teams/forms.py:42
+msgid "user already in team"
+msgstr ""
+
+#: teams/forms.py:45
+msgid "user already invited to team"
+msgstr ""
+
+#: teams/models.py:15
+msgid "open"
+msgstr ""
+
+#: teams/models.py:16
+msgid "by application"
+msgstr ""
+
+#: teams/models.py:17
+msgid "by invitation"
+msgstr ""
+
+#: teams/models.py:28
+msgid "Access"
+msgstr ""
+
+#: teams/models.py:33
+msgid "Permissions"
+msgstr ""
+
+#: teams/models.py:38
+msgid "Manager permissions"
+msgstr ""
+
+#: teams/models.py:69 teams/models.py:87
+msgid "Team"
+msgstr ""
+
+#: teams/models.py:70
+msgid "Teams"
+msgstr ""
+
+#: teams/models.py:73
+msgid "applied"
+msgstr ""
+
+#: teams/models.py:74
+msgid "invited"
+msgstr ""
+
+#: teams/models.py:75
+msgid "declined"
+msgstr ""
+
+#: teams/models.py:77
+msgid "member"
+msgstr ""
+
+#: teams/models.py:78
+msgid "manager"
+msgstr ""
+
+#: teams/models.py:89
+msgid "State"
+msgstr ""
+
+#: teams/models.py:93
+msgid "Membership"
+msgstr ""
+
+#: teams/models.py:94
+msgid "Memberships"
+msgstr ""
+
+#: teams/views.py:71
+msgid "Invitation created."
+msgstr "Invitation créé"
+
+#: teams/views.py:99
+msgid "Joined team."
+msgstr ""
+
+#: teams/views.py:115
+msgid "Left team."
+msgstr ""
+
+#: teams/views.py:137
+msgid "Applied to join team."
+msgstr ""
+
+#: teams/views.py:153
+msgid "Promoted to manager."
+msgstr ""
+
+#: teams/views.py:167
+msgid "Demoted from manager."
+msgstr ""
+
+#: teams/views.py:181
+msgid "Accepted application."
+msgstr ""
+
+#: teams/views.py:195
+msgid "Rejected application."
+msgstr ""
+
+
