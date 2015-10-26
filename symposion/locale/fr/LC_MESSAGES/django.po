@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: symposion\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-24 14:41+0200\n"
-"PO-Revision-Date: 2015-10-24 16:47+0100\n"
+"PO-Revision-Date: 2015-10-26 19:51+0100\n"
 "Last-Translator: Didier Raboud <odyx@swisslinux.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -55,6 +55,8 @@ msgstr "pages"
 #: cms/models.py:63
 msgid "Path can only contain letters, numbers and hyphens and end with /"
 msgstr ""
+"Le chemin ne peut contenir que des lettres, des chiffres, des apostrophes, et "
+"doit se terminer par /"
 
 #: conference/apps.py:9
 msgid "Symposion Conference"
@@ -62,49 +64,49 @@ msgstr ""
 
 #: conference/models.py:18 proposals/models.py:90 schedule/models.py:181
 msgid "Title"
-msgstr ""
+msgstr "Titre"
 
 #: conference/models.py:21 conference/models.py:62
 msgid "Start date"
-msgstr ""
+msgstr "Date de début"
 
 #: conference/models.py:22 conference/models.py:63
 msgid "End date"
-msgstr ""
+msgstr "Date de fin"
 
 #: conference/models.py:25
 msgid "timezone"
-msgstr ""
+msgstr "fuseau horaire"
 
 #: conference/models.py:44
 msgid "conference"
-msgstr ""
+msgstr "conférence"
 
 #: conference/models.py:45
 msgid "conferences"
-msgstr ""
+msgstr "conférences"
 
 #: conference/models.py:56 sponsorship/models.py:51
 msgid "Conference"
-msgstr ""
+msgstr "Conférence"
 
 #: conference/models.py:58 proposals/models.py:76 schedule/models.py:54
 #: speakers/models.py:24 sponsorship/models.py:52 sponsorship/models.py:234
 #: teams/models.py:25
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: conference/models.py:59 proposals/models.py:77 teams/models.py:24
 msgid "Slug"
-msgstr ""
+msgstr "Label court"
 
 #: conference/models.py:69
 msgid "section"
-msgstr ""
+msgstr "section"
 
 #: conference/models.py:70
 msgid "sections"
-msgstr ""
+msgstr "sections"
 
 #: forms.py:14
 msgid "First name"
@@ -116,15 +118,15 @@ msgstr "Nom"
 
 #: forms.py:16
 msgid "Confirm Email"
-msgstr ""
+msgstr "Confirmer le courriel"
 
 #: forms.py:36
 msgid "Email address must match previously typed email address"
-msgstr ""
+msgstr "Les courriels doivent concorder"
 
 #: proposals/actions.py:37
 msgid "Export selected objects as CSV file"
-msgstr ""
+msgstr "Exporter les objets sélectionner en CSV"
 
 #: proposals/apps.py:9
 msgid "Symposion Proposals"
@@ -132,50 +134,52 @@ msgstr ""
 
 #: proposals/forms.py:16
 msgid "Email address of new speaker (use their email address, not yours)"
-msgstr ""
+msgstr "Courriel du nouveau conférencier (utiliser son courriel, pas le vôtre)"
 
 #: proposals/forms.py:31
 msgid "This email address has already been invited to your talk proposal"
-msgstr ""
+msgstr "Ce courriel a déjà été invitée pour votre proposition de conférence"
 
 #: proposals/models.py:37 proposals/models.py:74 schedule/models.py:21
 #: schedule/models.py:189
 msgid "Section"
-msgstr ""
+msgstr "Section"
 
 #: proposals/models.py:39 schedule/models.py:88
 msgid "Start"
-msgstr ""
+msgstr "Début"
 
 #: proposals/models.py:40 schedule/models.py:89
 msgid "End"
-msgstr ""
+msgstr "Fin"
 
 #: proposals/models.py:41
 msgid "Closed"
-msgstr ""
+msgstr "Fermé"
 
 #: proposals/models.py:42 schedule/models.py:22
 msgid "Published"
-msgstr ""
+msgstr "Publié"
 
 #: proposals/models.py:88 schedule/models.py:87
 msgid "Kind"
-msgstr ""
+msgstr "Type"
 
 #: proposals/models.py:92
 msgid "Brief Description"
-msgstr ""
+msgstr "Description brève"
 
 #: proposals/models.py:94
 msgid ""
 "If your proposal is accepted this will be made public and printed in the "
 "program. Should be one paragraph, maximum 400 characters."
 msgstr ""
+"Si votre proposition est acceptée, ce texte sera rendu public et publié avec "
+"le programme. Devrait tenir en un paragraphe, de maximum 400 caractères.."
 
 #: proposals/models.py:98
 msgid "Detailed Abstract"
-msgstr ""
+msgstr "Résumé détaillé"
 
 #: proposals/models.py:99
 msgid ""
@@ -186,7 +190,7 @@ msgstr ""
 
 #: proposals/models.py:104
 msgid "Addtional Notes"
-msgstr ""
+msgstr "Notes supplémentaires"
 
 #: proposals/models.py:106
 msgid ""
@@ -198,7 +202,7 @@ msgstr ""
 
 #: proposals/models.py:114
 msgid "Submitted"
-msgstr ""
+msgstr "Soumis"
 
 #: proposals/models.py:116 proposals/models.py:185 schedule/models.py:184
 #: speakers/models.py:43
@@ -208,36 +212,36 @@ msgstr "Conférencier"
 #: proposals/models.py:120
 #, python-format
 msgid "%s is same as primary speaker."
-msgstr ""
+msgstr "%s est le même que le conférencier principal."
 
 #: proposals/models.py:122
 #, python-format
 msgid "%s has already been in speakers."
-msgstr ""
+msgstr "%s a déjà été enregistré comme conférencier."
 
 #: proposals/models.py:125
 msgid "Addtional speakers"
-msgstr ""
+msgstr "Conférenciers supplémentaires"
 
 #: proposals/models.py:127 schedule/models.py:187
 msgid "Cancelled"
-msgstr ""
+msgstr "Annulé"
 
 #: proposals/models.py:149
 msgid "Undecided"
-msgstr ""
+msgstr "Indécis"
 
 #: proposals/models.py:180
 msgid "Pending"
-msgstr ""
+msgstr "En attente"
 
 #: proposals/models.py:181 reviews/models.py:230
 msgid "Accepted"
-msgstr ""
+msgstr "Accepté"
 
 #: proposals/models.py:182
 msgid "Declined"
-msgstr ""
+msgstr "Refusé"
 
 #: proposals/models.py:186
 msgid "Proposalbase"
@@ -245,15 +249,15 @@ msgstr ""
 
 #: proposals/models.py:187 reviews/models.py:236 schedule/models.py:269
 msgid "Status"
-msgstr ""
+msgstr "Statut"
 
 #: proposals/models.py:191
 msgid "Addtional speaker"
-msgstr ""
+msgstr "Conférencier supplémentaire"
 
 #: proposals/models.py:192 schedule/models.py:186
 msgid "Additional speakers"
-msgstr ""
+msgstr "Conférenciers supplémentaires"
 
 #: proposals/models.py:196
 #, python-format
@@ -269,11 +273,11 @@ msgstr ""
 #: reviews/models.py:112 reviews/models.py:195 reviews/models.py:218
 #: reviews/models.py:298 reviews/models.py:325
 msgid "Proposal"
-msgstr ""
+msgstr "Proposition"
 
 #: proposals/models.py:213
 msgid "Uploaded by"
-msgstr ""
+msgstr "Téléversé par"
 
 #: proposals/models.py:215
 msgid "Created at"
@@ -281,12 +285,12 @@ msgstr "Créé à"
 
 #: proposals/models.py:217 sponsorship/models.py:217 sponsorship/models.py:278
 msgid "File"
-msgstr ""
+msgstr "Fichier"
 
 #: proposals/models.py:218 schedule/models.py:182 sponsorship/models.py:55
 #: sponsorship/models.py:235 teams/models.py:26
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: proposals/views.py:42
 #, python-brace-format
@@ -294,15 +298,19 @@ msgid ""
 "To submit a proposal, please <a href='{0}'>log in</a> and create a speaker "
 "profile via the dashboard."
 msgstr ""
+"Pour soumettre une proposition, <a href='{0}'>se connecter</a> et créer un "
+"profil de conférencier via le tableau de bord."
 
 #: proposals/views.py:51
 #, python-brace-format
 msgid "To submit a proposal, first <a href='{0}'>create a speaker profile</a>."
 msgstr ""
+"Pour soumettre une proposition, <a href='{0}'>créer d'abord un profil de "
+"conférencier</a>."
 
 #: proposals/views.py:91
 msgid "Proposal submitted."
-msgstr ""
+msgstr "Proposition soumise"
 
 #: reviews/apps.py:9
 msgid "Symposion Reviews"
@@ -348,15 +356,15 @@ msgstr ""
 #: reviews/models.py:196 schedule/models.py:267 speakers/models.py:23
 #: teams/models.py:85
 msgid "User"
-msgstr ""
+msgstr "Utilisateur"
 
 #: reviews/models.py:60
 msgid "Origin"
-msgstr ""
+msgstr "Origine"
 
 #: reviews/models.py:62
 msgid "Assigned at"
-msgstr ""
+msgstr "Assigné à"
 
 #: reviews/models.py:63
 msgid "Opted out"
@@ -364,11 +372,11 @@ msgstr ""
 
 #: reviews/models.py:100 teams/models.py:90
 msgid "Message"
-msgstr ""
+msgstr "Message"
 
 #: reviews/models.py:101 reviews/models.py:119 reviews/models.py:201
 msgid "Submitted at"
-msgstr ""
+msgstr "Soumis à"
 
 #: reviews/models.py:105
 msgid "proposal message"
@@ -380,71 +388,71 @@ msgstr ""
 
 #: reviews/models.py:117 reviews/models.py:200
 msgid "Vote"
-msgstr ""
+msgstr "Vote"
 
 #: reviews/models.py:118
 msgid "Comment"
-msgstr ""
+msgstr "Commentaire"
 
 #: reviews/models.py:188
 msgid "review"
-msgstr ""
+msgstr "revue"
 
 #: reviews/models.py:189
 msgid "reviews"
-msgstr ""
+msgstr "revues"
 
 #: reviews/models.py:205
 msgid "latest vote"
-msgstr ""
+msgstr "Dernier vote"
 
 #: reviews/models.py:206
 msgid "latest votes"
-msgstr ""
+msgstr "derniers votes"
 
 #: reviews/models.py:219
 msgid "Score"
-msgstr ""
+msgstr "Score"
 
 #: reviews/models.py:220
 msgid "Comment count"
-msgstr ""
+msgstr "Nombre de commentaires"
 
 #: reviews/models.py:221
 msgid "Vote count"
-msgstr ""
+msgstr "Nombre de votes"
 
 #: reviews/models.py:222
 msgid "Plus one"
-msgstr ""
+msgstr "Plus un"
 
 #: reviews/models.py:223
 msgid "Plus zero"
-msgstr ""
+msgstr "Plus zero"
 
 #: reviews/models.py:224
 msgid "Minus zero"
-msgstr ""
+msgstr "Moins zero"
 
 #: reviews/models.py:225
 msgid "Minus one"
-msgstr ""
+msgstr "Moins un"
 
 #: reviews/models.py:232
 msgid "accepted"
-msgstr ""
+msgstr "accepté"
 
 #: reviews/models.py:233 sponsorship/admin.py:76 teams/models.py:76
 msgid "rejected"
-msgstr ""
+msgstr "rejeté"
 
 #: reviews/models.py:234
 msgid "undecided"
-msgstr ""
+msgstr "indécis"
 
 #: reviews/models.py:235
 msgid "standby"
-msgstr ""
+msgstr "en attente"
 
 #: reviews/models.py:293
 msgid "proposal_result"
@@ -456,43 +464,43 @@ msgstr ""
 
 #: reviews/models.py:299
 msgid "Commenter"
-msgstr ""
+msgstr "Commentateur"
 
 #: reviews/models.py:300 sponsorship/models.py:216 sponsorship/models.py:277
 msgid "Text"
-msgstr ""
+msgstr "Texte"
 
 #: reviews/models.py:303
 msgid "public"
-msgstr ""
+msgstr "public"
 
 #: reviews/models.py:303
 msgid "private"
-msgstr ""
+msgstr "privé"
 
 #: reviews/models.py:304
 msgid "Commented at"
-msgstr ""
+msgstr "Commenté à"
 
 #: reviews/models.py:307
 msgid "comment"
-msgstr ""
+msgstr "commentaire"
 
 #: reviews/models.py:308
 msgid "comments"
-msgstr ""
+msgstr "commentaires"
 
 #: reviews/models.py:314 reviews/models.py:330
 msgid "From address"
-msgstr ""
+msgstr "Adresse de provenance"
 
 #: reviews/models.py:315 reviews/models.py:331
 msgid "Subject"
-msgstr ""
+msgstr "Sujet"
 
 #: reviews/models.py:316 reviews/models.py:332
 msgid "Body"
-msgstr ""
+msgstr "Corps"
 
 #: reviews/models.py:319
 msgid "notification template"
@@ -749,7 +757,7 @@ msgstr ""
 
 #: sponsorship/models.py:75
 msgid "Sponsor Name"
-msgstr ""
+msgstr "Nom du parrain"
 
 #: sponsorship/models.py:76
 msgid "display URL"
@@ -757,15 +765,15 @@ msgstr ""
 
 #: sponsorship/models.py:77
 msgid "External URL"
-msgstr ""
+msgstr "URL externe"
 
 #: sponsorship/models.py:79
 msgid "Contact Name"
-msgstr ""
+msgstr "Nom du contact"
 
 #: sponsorship/models.py:80
 msgid "Contact Email"
-msgstr ""
+msgstr "Courriel de contact"
 
 #: sponsorship/models.py:81
 msgid "level"
@@ -845,11 +853,11 @@ msgstr ""
 
 #: sponsorship/models.py:248 sponsorship/models.py:268
 msgid "Benefit"
-msgstr ""
+msgstr "Bénéfice"
 
 #: sponsorship/models.py:249
 msgid "Level"
-msgstr ""
+msgstr "Niveau"
 
 #: sponsorship/models.py:252 sponsorship/models.py:272
 msgid "Max words"
@@ -908,7 +916,7 @@ msgstr ""
 
 #: teams/forms.py:15
 msgid "Email"
-msgstr ""
+msgstr "Courriel"
 
 #: teams/forms.py:16
 msgid "email address must be that of an account on this conference site"
