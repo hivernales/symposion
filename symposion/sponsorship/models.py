@@ -60,7 +60,7 @@ class SponsorLevel(models.Model):
         verbose_name_plural = _("Sponsor levels")
 
     def __str__(self):
-        return "%s %s" % (self.conference, self.name)
+        return _("{name} ({cost}.-)").format(name=self.name, cost=self.cost)
 
     def sponsors(self):
         return self.sponsor_set.filter(active=True).order_by("added")
