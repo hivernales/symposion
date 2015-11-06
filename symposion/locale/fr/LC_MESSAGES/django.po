@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: symposion\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-24 14:41+0200\n"
+"POT-Creation-Date: 2015-11-06 20:19+0100\n"
 "PO-Revision-Date: 2015-10-26 19:51+0100\n"
 "Last-Translator: Didier Raboud <odyx@swisslinux.org>\n"
 "Language: fr\n"
@@ -15,26 +15,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#: boxes/models.py:15 reviews/models.py:313 schedule/models.py:73
-msgid "Label"
-msgstr "Étiquette"
-
-#: boxes/models.py:18
-msgid "Created by"
-msgstr "Crée par"
-
-#: boxes/models.py:19
-msgid "Last updated by"
-msgstr "Mis à jour par"
-
-#: boxes/models.py:25
-msgid "Box"
-msgstr "Boîte"
-
-#: boxes/models.py:26
-msgid "Boxes"
-msgstr "Boîtes"
 
 #: cms/models.py:25
 msgid "Draft"
@@ -55,8 +35,8 @@ msgstr "pages"
 #: cms/models.py:63
 msgid "Path can only contain letters, numbers and hyphens and end with /"
 msgstr ""
-"Le chemin ne peut contenir que des lettres, des chiffres, des apostrophes, et "
-"doit se terminer par /"
+"Le chemin ne peut contenir que des lettres, des chiffres, des apostrophes, "
+"et doit se terminer par /"
 
 #: conference/apps.py:9
 msgid "Symposion Conference"
@@ -179,7 +159,7 @@ msgstr ""
 
 #: proposals/models.py:98
 msgid "Detailed Abstract"
-msgstr "Résumé détaillé"
+msgstr "Description"
 
 #: proposals/models.py:99
 msgid ""
@@ -187,6 +167,9 @@ msgid ""
 "using <a href='http://daringfireball.net/projects/markdown/basics' "
 "target='_blank'>Markdown</a>."
 msgstr ""
+"Description détaillé. Sera rendu public si la proposition est acceptée. "
+"Édition avec <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/"
+"target='_blank'>Markdown</a>."
 
 #: proposals/models.py:104
 msgid "Addtional Notes"
@@ -199,6 +182,10 @@ msgid ""
 "href='http://daringfireball.net/projects/markdown/basics' "
 "target='_blank'>Markdown</a>."
 msgstr ""
+"Quoi que ce soit d'autre que vous voudriez que l'équipe de sélection sache "
+"en faisant leur sélection; expériences passées, etc. Ne sera pas rendu "
+"public. Édition avec <a href='http://warpedvisions.org/projects/markdown-"
+"cheat-sheet/target='_blank'>Markdown</a>."
 
 #: proposals/models.py:114
 msgid "Submitted"
@@ -489,6 +476,10 @@ msgstr "commentaire"
 #: reviews/models.py:308
 msgid "comments"
 msgstr "commentaires"
+
+#: reviews/models.py:313 schedule/models.py:73
+msgid "Label"
+msgstr "Étiquette"
 
 #: reviews/models.py:314 reviews/models.py:330
 msgid "From address"
@@ -899,6 +890,11 @@ msgstr ""
 #, python-format
 msgid "Sponsorship level only allows for %(word)s words, you provided %(num)d."
 msgstr ""
+
+#: sponsorship/models.py:63
+#, python-brace-format
+msgid "{name} ({cost}.-)"
+msgstr "{name} ({cost}.-)"
 
 #: sponsorship/views.py:35
 msgid ""
