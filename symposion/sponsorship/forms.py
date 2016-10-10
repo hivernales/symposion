@@ -1,11 +1,12 @@
 from __future__ import unicode_literals
 from django import forms
+from django.conf import settings
 from django.forms.models import inlineformset_factory, BaseInlineFormSet
 
 from django.contrib.admin.widgets import AdminFileWidget
 from django.utils.translation import ugettext_lazy as _
 
-from symposion.sponsorship.models import Sponsor, SponsorBenefit
+from symposion.sponsorship.models import Sponsor, SponsorBenefit, SponsorLevel
 
 
 class SponsorApplicationForm(forms.ModelForm):
@@ -19,6 +20,8 @@ class SponsorApplicationForm(forms.ModelForm):
         })
         super(SponsorApplicationForm, self).__init__(*args, **kwargs)
 
+    level = forms.ModelChoiceField(SponsorLevel.objects.filter(conference__id=settings.CONFERENCE_ID))
+
     class Meta:
         model = Sponsor
         fields = [
@@ -26,7 +29,6 @@ class SponsorApplicationForm(forms.ModelForm):
             "external_url",
             "contact_name",
             "contact_email",
-            "level"
         ]
 
     def save(self, commit=True):
