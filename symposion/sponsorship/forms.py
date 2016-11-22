@@ -29,6 +29,7 @@ class SponsorApplicationForm(forms.ModelForm):
             "external_url",
             "contact_name",
             "contact_email",
+            "level"
         ]
 
     def save(self, commit=True):
