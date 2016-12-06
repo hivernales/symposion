@@ -12,13 +12,15 @@ from django.contrib.sites.models import Site
 
 from account.decorators import login_required
 
+from symposion.conference.models import current_conference
 from symposion.schedule.forms import SlotEditForm, ScheduleSectionForm
 from symposion.schedule.models import Schedule, Day, Slot, Presentation, Session, SessionRole
 from symposion.schedule.timetable import TimeTable
 
 
 def fetch_schedule(slug):
-    qs = Schedule.objects.all()
+    conf = current_conference()
+    qs = Schedule.objects.filter(section__conference=conf)
 
     if slug is None:
         if qs.count() > 1:
@@ -33,11 +35,11 @@ def fetch_schedule(slug):
 
 
 def schedule_conference(request):
+    conf = current_conference()
+    schedules = Schedule.objects.filter(section__conference=conf, hidden=False)
 
-    if request.user.is_staff:
-        schedules = Schedule.objects.filter(hidden=False)
-    else:
-        schedules = Schedule.objects.filter(published=True, hidden=False)
+    if not request.user.is_staff:
+        schedules = schedules.filter(published=True)
 
     sections = []
     for schedule in schedules:
