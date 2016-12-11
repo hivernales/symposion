@@ -19,6 +19,7 @@ from django.utils.translation import ugettext_lazy as _
 from account.decorators import login_required
 from account.models import EmailAddress
 
+from symposion.conference.models import current_conference
 from symposion.proposals.models import (
     ProposalBase, ProposalSection, ProposalKind
 )
@@ -55,7 +56,8 @@ def proposal_submit(request):
             return redirect("dashboard")
 
     kinds = []
-    for proposal_section in ProposalSection.available():
+    conf = current_conference()
+    for proposal_section in ProposalSection.available().filter(section__conference=conf):
         for kind in proposal_section.section.proposal_kinds.all():
             kinds.append(kind)
 
